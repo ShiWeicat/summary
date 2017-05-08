@@ -5,7 +5,15 @@
 ###2、git是什么？  
 	是一款免费、开元的分布式版本控制系统，用于敏捷高效地处理任何或大或小的项目
 ### 3、学习github的5个理由  
-	
+	 1.有很多很厉害的技术人员，称大牛，比如百度、阿里等等。  
+
+         2.可以接触到最新和最前沿的IT技术，我们可以接触到这些软件的初始、中间以及最终状态，可以第一时间了解到软件产品的发展动向，同时能够清楚地了解到时下最火热最具有发展力的技术。  
+
+         3.我们可以学到开发语言、项目流程、设计思想、编码规范等等，同时可以记录我们技术的发展，像社交网站中的一个时间轴，我们可以随时去看自己的学习历程以及积累，有时还会发现自己的不足之处，进而改正进步。  
+
+         4.github是一个开源的，所有项目的代码文档对我们都是开放的。在上面我们可以找到一些项目参与其中，增加自己的项目实战经验，为以后找工作和做项目做铺垫。  
+
+         5.在github上有一些教程，我们可以进行学习，优质的学习资源非常丰富。  
 ### 4、github的优势    
 	①GitHub 只支持 Git 格式的版本库托管，而不像其他开源项目托管平台还对
 	CVS、SVN、Hg 等格式的版本库进行托管。
@@ -35,7 +43,7 @@
 ### 13、watch的作用是？ 
 	watch翻译过来可以称之为观察，点击watch可以看到如下的列表  
 ### 14、搜索结果分别有哪些类别  
-	repositories（仓库）、code（代码）、commits（提交）、siiues（）、wikis（）、users（）  
+	repositories（仓库）、code（代码）、commits（提交）、siiues（套）、wikis（维基）、users（用户）  
 ### 15、你在github上挖到什么宝
 ## 第二章总结  
 ### 1.个人主页上的“+”下拉菜单可创建的四种类别分别有？分别的意思？  
@@ -45,7 +53,7 @@
 ### 3.如何删除仓库  
 点开仓库 点击右上角的Settings  点击下方的Delete this repository   
 ### 4.Bash是什么操作系统的命令  
-GNU   
+  Gui  
 ### 5.5.Pwd是什么命令
   显示当前目录 
 ###  6.Cd是什么命令：  
@@ -77,43 +85,60 @@ Git rm [file1] [file2]
 Git mv [file-origin] [file-renamed]
 ### 19.提交暂存区到仓库的命令  
 
-Git commit –m [message]
-20.直接从工作区提交到仓库的命令   
+Git commit –m [message]  
+### 20.直接从工作区提交到仓库的命令     
 Git commit –a –m [message]  
-21.显示变更信息的命令  
+### 21.显示变更信息的命令    
 Git status   
-22.查看历史信息的命令  
-Git log  
-Git log --oneline  
-23.提交代码到仓库  
-24.将远程仓库拉到本地  
-25.提交、推送代码  
-## 第三章总结
-1.Markdown是什么？
-  轻量级标记语言
-  Markdown是一个WEB上使用的文本到HTML的转换工具，可以通过简单、易读易些的文本格式生成结构化的HTML文档
-2.Markdown的特点：
-  简洁、高效、可读、直观、学习成本低
-兼容HTML 在线观看 平台支持 排版样式简单
-3.Markdown用途 ：
- Markdown的语法简介明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台WordPress和大型CMS如joomla、drupal都能很好的支持Markdown。
-4.markdown的编辑工具有哪些？
-Windows 平台
-GitHub Atom
-MarkdownPad
-MarkPad
-Linux 平台
-ReText
-Mac 平台
-Mou
-在线编辑器
-Markable.in
-Dillinger.io
-浏览器插件
-MaDe (Chrome)
-高级应用(Sublime Text 2 + MarkdownEditing 教程)
-Sublime Text 2
-MarkdownEditing
-教程
-5.markdown的区块元素和区段元素 分别包含哪些？
+### 22.查看历史信息的命令    
+Git log    
+Git log --oneline    
+### 23.提交代码到仓库
+ commit changes  
+### 24.将远程仓库拉到本地 
+  fork远程仓库  
+  为你 fork 的仓库创建一个本地克隆  
+  配置远程仓库  
+  同步远程仓库  
+### 25.提交、推送代码    
+  Add SSH Key  
+  克隆GitHub仓库到本地 
+  TortoiseGit代码提交  
+## 第三章总结  
+### 1.Markdown是什么？    
+  轻量级标记语言    
+  Markdown是一个WEB上使用的文本到HTML的转换工具，可以通过简单、易读易些的文本格式生成结构化的HTML文档    
+### 2.Markdown的特点：    
+  简洁、高效、可读、直观、学习成本低    
+兼容HTML 在线观看 平台支持 排版样式简单    
+### 3.Markdown用途：      
+ Markdown的语法简介明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台WordPress和大型CMS如joomla、drupal都能很好的支持Markdown。      
+### 4.markdown的编辑工具有哪些？    
+Windows 平台  
+GitHub Atom  
+MarkdownPad   
+MarkPad  
+Linux 平台  
+ReText  
+Mac 平台  
+Mou  
+在线编辑器    
+Markable.in  
+Dillinger.io  
+浏览器插件  
+MaDe (Chrome)  
+高级应用(Sublime Text 2 + MarkdownEditing 教程)  
+Sublime Text 2  
+MarkdownEditing  
+教程  
+### 5.markdown的区块元素和区段元素 分别包含哪些？  
+ 区块    
+ = （最高阶标题）和 - （第二阶标题） 
+   Blockquotes  
+   <pre> 和 <code>    
+ 区段    
+  （*）和底线（_）作为标记强调字词的符号  
+  链接<>  
+  如果要标记一小段行内代码，你可以用反引号把它包起来（`）    
+  图片！[MD]()  
   
