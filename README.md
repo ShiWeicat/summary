@@ -47,98 +47,168 @@
 ### 15、你在github上挖到什么宝
 ## 第二章总结  
 ### 1.个人主页上的“+”下拉菜单可创建的四种类别分别有？分别的意思？  
-创建仓库 导入仓库 创建代码片段 创建团队    
+	创建仓库 导入仓库 创建代码片段 创建团队    
 ###  2.如何能将仓库中的html文件直接解析成页面？  
-将github上需要预览的html文件的链接复制过去即可  
+	将github上需要预览的html文件的链接复制过去即可  
 ### 3.如何删除仓库  
-点开仓库 点击右上角的Settings  点击下方的Delete this repository   
+	点开仓库 点击右上角的Settings  点击下方的Delete this repository   
 ### 4.Bash是什么操作系统的命令  
-  Gui  
+	  Gui  
 ### 5.5.Pwd是什么命令
-  显示当前目录 
+	  显示当前目录 
 ###  6.Cd是什么命令：  
-进入已有项目根目录下
+	进入已有项目根目录下
 ### 7.Echo是什么命令
- 打印
+	 打印
 ### 8.配置git用户名的命令  
-git config --global user.name "Your Name"  
+	git config --global user.name "Your Name"  
 ### 9.配置邮箱的命令  
-git config --global user.email "you@example.com"  
+	git config --global user.email "you@example.com"  
 ### 10.命令行换行方式  
-  \
+	  \
 ### 11.命令行终结方式：ctrl +c  
-ctrl+c  
+	ctrl+c  
 ### 12.使用命令行比GUI方式有何优势:  
- 一次可建多个文件夹，复杂操作可以批处理
+	 一次可建多个文件夹，复杂操作可以批处理
 ###  13.提交到本地仓库时为什么有暂存区  
 ### 14.新建代码仓库的命令:  
-git init
+	git init
 ### 15.git clone [url] 这个命令的作用是   
-  在当前目录新建代码库
+	  在当前目录新建代码库
 ### 16.添加指定文件到暂存区的命令:git  add  
-Git add 【file1】 【file2】
+	Git add 【file1】 【file2】
 ### 17.删除工作区文件，并且将这次删除放入暂存区的命令:  
- 
-Git rm [file1] [file2]  
+
+	Git rm [file1] [file2]  
 ### 18.改名文件，并且将这个改名文件放入暂存区的命令  
-   
-Git mv [file-origin] [file-renamed]
+
+	Git mv [file-origin] [file-renamed]
 ### 19.提交暂存区到仓库的命令  
 
-Git commit –m [message]  
+	Git commit –m [message]  
 ### 20.直接从工作区提交到仓库的命令     
-Git commit –a –m [message]  
+	Git commit –a –m [message]  
 ### 21.显示变更信息的命令    
-Git status   
+	Git status   
 ### 22.查看历史信息的命令    
-Git log    
-Git log --oneline    
+	Git log    
+	Git log --oneline    
 ### 23.提交代码到仓库
- commit changes  
+	 commit changes  
 ### 24.将远程仓库拉到本地 
-  fork远程仓库  
-  为你 fork 的仓库创建一个本地克隆  
-  配置远程仓库  
-  同步远程仓库  
+	  fork远程仓库  
+	  为你 fork 的仓库创建一个本地克隆  
+	  配置远程仓库  
+	  同步远程仓库  
 ### 25.提交、推送代码    
-  Add SSH Key  
-  克隆GitHub仓库到本地 
-  TortoiseGit代码提交  
+	  Add SSH Key  
+	  克隆GitHub仓库到本地 
+	  TortoiseGit代码提交  
 ## 第三章总结  
 ### 1.Markdown是什么？    
-  轻量级标记语言    
-  Markdown是一个WEB上使用的文本到HTML的转换工具，可以通过简单、易读易些的文本格式生成结构化的HTML文档    
+	  轻量级标记语言    
+	  Markdown是一个WEB上使用的文本到HTML的转换工具，可以通过简单、易读易些的文本格式生成结构化的HTML文档    
 ### 2.Markdown的特点：    
-  简洁、高效、可读、直观、学习成本低    
-兼容HTML 在线观看 平台支持 排版样式简单    
+	  简洁、高效、可读、直观、学习成本低    
+	兼容HTML 在线观看 平台支持 排版样式简单    
 ### 3.Markdown用途：      
- Markdown的语法简介明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台WordPress和大型CMS如joomla、drupal都能很好的支持Markdown。      
+	 Markdown的语法简介明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台WordPress和大型CMS如joomla、drupal都能很好的支持Markdown。      
 ### 4.markdown的编辑工具有哪些？    
-Windows 平台  
-GitHub Atom  
-MarkdownPad   
-MarkPad  
-Linux 平台  
-ReText  
-Mac 平台  
-Mou  
-在线编辑器    
-Markable.in  
-Dillinger.io  
-浏览器插件  
-MaDe (Chrome)  
-高级应用(Sublime Text 2 + MarkdownEditing 教程)  
-Sublime Text 2  
-MarkdownEditing  
-教程  
+		Windows 平台  
+		GitHub Atom  
+		MarkdownPad   
+		MarkPad  
+		Linux 平台  
+		ReText  
+		Mac 平台  
+		Mou  
+		在线编辑器    
+		Markable.in  
+		Dillinger.io  
+		浏览器插件  
+		MaDe (Chrome)  
+		高级应用(Sublime Text 2 + MarkdownEditing 教程)  
+		Sublime Text 2  
+		MarkdownEditing  
+		教程  
 ### 5.markdown的区块元素和区段元素 分别包含哪些？  
  区块    
- = （最高阶标题）和 - （第二阶标题） 
-   Blockquotes  
-   <pre> 和 <code>    
- 区段    
-  （*）和底线（_）作为标记强调字词的符号  
-  链接<>  
-  如果要标记一小段行内代码，你可以用反引号把它包起来（`）    
-  图片！[MD]()  
+	 = （最高阶标题）和 - （第二阶标题） 
+	   Blockquotes  
+	   <pre> 和 <code>    
+	 区段    
+	  （*）和底线（_）作为标记强调字词的符号  
+	  链接<>  
+	  如果要标记一小段行内代码，你可以用反引号把它包起来（`）    
+	  图片！[MD]()     
+ 
+## 一、设计基础    
+ 
+ ### 1.什么是设计？   
+ 	 有目的的策划  
+##  2.哪些属于设计范畴：  
+ 	 平面设计、软件设计、工业设计、概念设计、产品设计  
+## 3.用户界面（UI）设计是什么？   
+  	  人机交互层面   
+## 4.界面设计三大原则  
+ 	置界面的用户控制过程、减少用户的记忆负担、保持界面一致性  
+## 5.用户界面设计的组成部分  
+  	结构、交互、视觉设计  
+## 6.结构设计的分类   
+ 	 网页结构设计、系统结构设计  
+## 7.什么是交互设计  
+ 	是定义、设计人造系统的行为的设计领域  
+
+## 8用户界面（UI）设计工作流程  
+  	需求分析->模块分析->结构设计->交互设计->视觉设计->界面级源代码->维护和测试  
+## 9.用户界面（UI）设计的发展方向  
+  	系统架构师、测试工程师、交互设计师、视觉设计师  
+# 二、UI设计常识  
+
+## 1.UI是哪两个单词的简称  
+  	User interface  
+## 2.什么是VI系统  
+   	企业视觉识别系统  
+## 3.VI设计原则包括？  
+  	同一性、有效性、差异性、文化性  
+## 4.VI系统包含哪两部分  
+  	基本要素系统、应用系统   
+## 5.对于logo的合法的两种更改  
+	等比例缩放、变白  
+## 6.色彩模式有哪两种  
+	RGB模式、CMYK模式  
+## 7.图片格式有哪两种？  
+  	位图、矢量图  
+## 8.两种图片格式的特点是？  
+ 	位图：由一格一格的小点组成  
+ 	矢量图：线段和曲线组成   
+
+## 9.两种图片格式分别常用的扩展名为？  
+	位图：.psd,jpg,gif,png  
+	矢量图：ai ,eps,cdr  
+## 10.可用性设计体现在哪三个方面  
+  	内容布局、使用人性化、美观  
+## 11.常用到的网络资源有  
+  	图片、图标、文字、代码、动画、音乐等  
+## 12.客户交流时的注意事项  
+  
+# 三、UI设计流程  
+ 
+## 1.前期需求阶段，UI设计所需要考虑的四个问题  
+   	需求分析、栏目排版、色彩搭配、风格设计  
+## 2.UI设计在需求分析阶段需要注意的问题？  
+  	网站制作目标、所处行业、包含内容、使用人群等  
+## 3.在栏目排版时，首页内容通常包含哪些部分？  
+ 	 主题栏、更新、指南、交流、广告  
+## 4.色彩搭配时需要注意的问题    
+ 	 不要超过三个色系   行业的默认颜色、主色调搭配  
+## 5.中期设计阶段需要做的工作有哪些？  
+  	设计工具选择 、设计制作、布局方式、样式定义、交流沟通  
+## 6.设计效果图时需注意的问题？  
+  
+ 	多用填充色 少用图片，用小图，不用大图；使用系统字体，减少特殊字体，不要超过三个色系  
+## 7.前端页面的设计中，html、css和javascript分别的作用是？  
+  	Html：结构   
+  	Css:样式  
+  	Js:行为  
   
